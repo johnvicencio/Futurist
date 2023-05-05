@@ -93,10 +93,6 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-ep4Hzh9zhmiZF2At3Fp1dQrYQuYF\/3ZPZxc1KcGBvwQ=",
-      "url": "site.webmanifest"
-    },
-    {
       "hash": "sha256-1LdCM2DgMGKnPrFiv8KF63U8ptDi\/RKKBH7tkYKUrfI=",
       "url": "Futurist.styles.css"
     },
@@ -901,5 +897,5 @@
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "AqF7pdnK"
+  "version": "CznzYtGv"
 };

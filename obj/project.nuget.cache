@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G6UjUyglLFHgHVagiJh1UTm028wELA6p8y9RxE2t9TN2ZSnzpL8NheWPxizwHXX5dKhT84IwUqk+0fgmmMxtNw==",
+  "dgSpecHash": "fHFBfdyQimxGoxKhGx7uPfNSBLxU3K6CoEauLIp6OIifCE1lg1SldZqR/jL6IPP2RjItoTMVaWDNIllG+YB/TQ==",
   "success": true,
-  "projectFilePath": "/Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/Futurist.csproj",
+  "projectFilePath": "/Users/johnvicencio/Projects/Repository/Futurist/Futurist.csproj",
   "expectedPackageFiles": [
     "/Users/johnvicencio/.nuget/packages/microsoft.aspnetcore.authorization/6.0.16/microsoft.aspnetcore.authorization.6.0.16.nupkg.sha512",
     "/Users/johnvicencio/.nuget/packages/microsoft.aspnetcore.components/6.0.16/microsoft.aspnetcore.components.6.0.16.nupkg.sha512",

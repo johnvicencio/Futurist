@@ -1767,11 +1767,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/Futurist.csproj",
+      "projectUniqueName": "/Users/johnvicencio/Projects/Repository/Futurist/Futurist.csproj",
       "projectName": "Futurist",
-      "projectPath": "/Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/Futurist.csproj",
+      "projectPath": "/Users/johnvicencio/Projects/Repository/Futurist/Futurist.csproj",
       "packagesPath": "/Users/johnvicencio/.nuget/packages/",
-      "outputPath": "/Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/obj/",
+      "outputPath": "/Users/johnvicencio/Projects/Repository/Futurist/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/johnvicencio/NuGet.Config",
