@@ -9,33 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Futurist
 build_property.RootNamespace = Futurist
-build_property.ProjectDir = /Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/
+build_property.ProjectDir = /Users/johnvicencio/Projects/Repository/Futurist/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist
+build_property.MSBuildProjectDirectory = /Users/johnvicencio/Projects/Repository/Futurist
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/App.razor]
+[/Users/johnvicencio/Projects/Repository/Futurist/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/Pages/Index.razor]
+[/Users/johnvicencio/Projects/Repository/Futurist/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/Shared/Footer.razor]
+[/Users/johnvicencio/Projects/Repository/Futurist/Shared/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0Zvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/_Imports.razor]
+[/Users/johnvicencio/Projects/Repository/Futurist/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/Shared/MainLayout.razor]
+[/Users/johnvicencio/Projects/Repository/Futurist/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-kfgl41ku3r
 
-[/Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/Shared/NavMenu.razor]
+[/Users/johnvicencio/Projects/Repository/Futurist/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-9chx1zdq5t
