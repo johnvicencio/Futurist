@@ -23,6 +23,6 @@ Futurist is a Blazor WebAssembly app that utilizes ASP.NET Core and C#. The app 
 6. Deployed on Netifly 
 
 ## Using the application
-1. Go to the URL
+1. Go to the URL: https://futurist.mythoslife.com 
 2. Type an answer (input)
 3. Wait for the answer below it (output)
