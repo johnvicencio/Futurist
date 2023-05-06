@@ -53,7 +53,7 @@
       "url": "css\/open-iconic\/README.md"
     },
     {
-      "hash": "sha256-H\/wRcekAZ\/+ade6DUqEqcd5xorYoMzB6YSzgRIQPhsI=",
+      "hash": "sha256-KJQANu2UkLS5\/Cp3X2MLmBF9TYSow16Kk8+\/0Wsfnx0=",
       "url": "data\/predictions.json"
     },
     {
@@ -881,11 +881,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-aIy1goZNghFjW2YPoWLLqvj5i8QRMOcn4uuua2iHnNg=",
+      "hash": "sha256-7qWNRLqQRPMa80P95CQoGAAj\/C7ipjWCD1uvmsbGgG8=",
       "url": "_framework\/Futurist.dll"
     },
     {
-      "hash": "sha256-xA39BndaZy9lSZB7Oxl9GkeRJNj2f4At22KFfvpfMNw=",
+      "hash": "sha256-x4uNlp9\/tz+PQnoyh26fShfM\/zUQFxPdO2wHtBji1pQ=",
       "url": "_framework\/Futurist.pdb"
     },
     {
@@ -893,9 +893,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-Zcjr0yNjEpH61\/zQlpP+YUsbLIXtX+u3xFwfeL1FmaI=",
+      "hash": "sha256-QpB+fafthkJoIwZQBpoe0PoF2VGHmj4iykdItsFI3Vs=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "CznzYtGv"
+  "version": "c4ToeXOl"
 };
