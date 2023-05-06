@@ -2,6 +2,7 @@
 using Futurist.Shared.Models;
 using System.Net.Http.Json;
 using System.Text.RegularExpressions;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Futurist.Shared.Services;
 
@@ -19,7 +20,7 @@ public class PredictionService
         var predictions = await _httpClient.GetFromJsonAsync<List<Prediction>>("data/predictions.json");
         var random = new Random();
         var index = random.Next(predictions.Count);
-        var firstWord = question.Split(' ')[0].ToLower();
+        bool triggers = Regex.IsMatch(question.Trim(), @"^\b(who|what|when|where|why|how|which|whom|whose|will)\b", RegexOptions.IgnoreCase) && (question.Trim().EndsWith("?")) ? true : false;
         if (question.ToLower().Contains("fake"))
         {
             return "That is harsh and this reflects on you!";
@@ -28,14 +29,31 @@ public class PredictionService
         {
             return "Are you talking smack?";
         }
-        else if (new[] { "who", "what", "when", "where", "why", "how", "which", "whom", "whose", "will", "am", "should", "ought", "can", "could"}.Contains(firstWord) && (question.ToLower().Contains("i") || question.ToLower().Contains("me")))
+        else if (triggers)
         {
           
             return predictions[index].Answer;
         }
         else
         {
-            return $"You said {firstWord.ToUpper()} and did not ask about yourself? Ask me a question about yourself...";
+            List<string> answers = new List<string> {
+                "Huh?",
+                "I don't understand...",
+                "Is this a real question?",
+                "Ask me another question.",
+                "Let's talk about something else."
+            };
+            index = random.Next(answers.Count);
+            string answer = answers[index];
+            if (answer.Trim().EndsWith("?"))
+            {
+                return answer;
+            }
+            else
+            {
+                return "Are you missing a question mark?";
+            }
+            
         }
     }
 
