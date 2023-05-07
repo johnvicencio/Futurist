@@ -29,6 +29,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-jOmoWSfsdQexH\/6QCA56gR1RMEqeix2iDDUBWbpAOQI=",
       "Microsoft.JSInterop.dll": "sha256-ALn8NC3hrTKXR7eHxOPax8hsoVRUDr+2fn6cTY635kE=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-JENkxS9516I3yudzXFewx4Jbc3E42bTb8zXN9kXis9M=",
+      "Newtonsoft.Json.dll": "sha256-IsZJ91\/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=",
       "System.IO.Pipelines.dll": "sha256-6+E55JXedimdw1c1bDtVg4K7XuWjVWVTifH8QpfzXSY=",
       "Microsoft.CSharp.dll": "sha256-AbDB3xoT3KVWhDyogoZiFdRbRk92KtmWnECUk\/6K6QI=",
       "Microsoft.VisualBasic.Core.dll": "sha256-GpHake9dRTeu5tywuWSDKBDD3JaBjv7OH1AFlDB9xdg=",
@@ -196,13 +197,13 @@
       "mscorlib.dll": "sha256-C3gpWQMELcHYfrHU\/1agQUvWTtSNs9Ul2suMxcKFnIc=",
       "netstandard.dll": "sha256-CgGkoZQx73t3qchcsu85kgBcgrjNEOiudArOwKNb18k=",
       "System.Private.CoreLib.dll": "sha256-6nUSjiT7okMlkN897OnDypwppYuK7JxTahOClXkAuwE=",
-      "Futurist.dll": "sha256-4sja6CQisd49uWNCStCwSgC3VDmOSVfXpFORK5RHnLQ="
+      "Futurist.dll": "sha256-W35Cb4CyPA52qq0N6YEUrzxyf4HFErqf09sF87AElnI="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Futurist.pdb": "sha256-9gOAtjtXX\/jB+XRscQp34j6s8AXlEGnLCjLF1\/yrKRc="
+      "Futurist.pdb": "sha256-\/Ph+I6Kf5zS\/iYL5qHEZTn4L3u1PvcFHToOCnY2JsB4="
     },
     "runtime": {
       "dotnet.6.0.16.i45oij4e1f.js": "sha256-GT2gK+GjOisRXJY+9yh6H8s6K\/KDIsaFMFIgWvAnttY=",

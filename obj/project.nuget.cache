@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fHFBfdyQimxGoxKhGx7uPfNSBLxU3K6CoEauLIp6OIifCE1lg1SldZqR/jL6IPP2RjItoTMVaWDNIllG+YB/TQ==",
+  "dgSpecHash": "1z53p/ZtqE8pyZg/uG/XXQNaBCVG4ISDUocdbl8GJA69cFBkoV/vt4w0rtc4IcyijwfWRHb1GoBqxkMwePTTQQ==",
   "success": true,
   "projectFilePath": "/Users/johnvicencio/Projects/Repository/Futurist/Futurist.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "/Users/johnvicencio/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/johnvicencio/.nuget/packages/microsoft.jsinterop/6.0.16/microsoft.jsinterop.6.0.16.nupkg.sha512",
     "/Users/johnvicencio/.nuget/packages/microsoft.jsinterop.webassembly/6.0.16/microsoft.jsinterop.webassembly.6.0.16.nupkg.sha512",
+    "/Users/johnvicencio/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/johnvicencio/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/Users/johnvicencio/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
     "/Users/johnvicencio/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

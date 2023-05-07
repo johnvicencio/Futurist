@@ -7,7 +7,7 @@ A web app using web assembly will be created to allow users to ask questions and
 ## Solution
 Futurist is a Blazor WebAssembly app that utilizes ASP.NET Core and C#. The app has a Model class and a Services class that acts as a controller for the model. The Services class uses a method to return a random answer from a JSON file that acts as a database. On the presentation layer, there is a Razor component with an input box for the user to ask a question and receive an answer in return.
 
-## Pseudo Code
+## Creating the app
 1. Create a C# Blazor Webassembly app using Visual Studio.
 2. Name the application Futurist.
 3. Create a folder in the Shared folder: Prediction class inside a Model folder and PredictionService inside a Service folder.
@@ -20,7 +20,8 @@ Futurist is a Blazor WebAssembly app that utilizes ASP.NET Core and C#. The app 
 3. Blazor Webassembly (with JavaScript)
 4. Bootstrap with Materialize design
 5. Content saved on GitHub
-6. Deployed on Netifly 
+6. Deployed on Netifly
+7. Added ChaptGPT for god mode check-box
 
 ## Using the application
 1. Go to the URL: https://futurist.mythoslife.com 

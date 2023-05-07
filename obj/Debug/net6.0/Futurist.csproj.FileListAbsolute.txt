@@ -822,12 +822,6 @@
 /Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/obj/Debug/net6.0/refint/Futurist.dll
 /Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/obj/Debug/net6.0/Futurist.pdb
 /Users/johnvicencio/Projects/Codes/csharp/BlazorWASSM/Futurist/obj/Debug/net6.0/ref/Futurist.dll
-/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/Futurist.csproj.AssemblyReference.cache
-/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/Futurist.GeneratedMSBuildEditorConfig.editorconfig
-/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/Futurist.AssemblyInfoInputs.cache
-/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/Futurist.AssemblyInfo.cs
-/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/Futurist.csproj.CoreCompileInputs.cache
-/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/Futurist.MvcApplicationPartsAssemblyInfo.cache
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/blazor.webassembly.js
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/dotnet.6.0.16.i45oij4e1f.js
@@ -868,6 +862,7 @@
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Win32.Registry.dll
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/mscorlib.dll
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/netstandard.dll
+/Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/Newtonsoft.Json.dll
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/System.AppContext.dll
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/System.Buffers.dll
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/System.Collections.Concurrent.dll
@@ -1105,6 +1100,7 @@
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Algorithms.dll.gz
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XDocument.dll.gz
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll.gz
+/Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/Newtonsoft.Json.dll.gz
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/System.Net.ServicePoint.dll.gz
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll.gz
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/wwwroot/_framework/System.Threading.dll.gz
@@ -1254,6 +1250,7 @@
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/Microsoft.JSInterop.dll
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/Microsoft.JSInterop.WebAssembly.dll
+/Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/System.IO.Pipelines.dll
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/Microsoft.CSharp.dll
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/Microsoft.VisualBasic.Core.dll
@@ -1428,6 +1425,12 @@
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/icudt_CJK.dat
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/icudt_EFIGS.dat
 /Users/johnvicencio/Projects/Repository/Futurist/bin/Debug/net6.0/icudt_no_CJK.dat
+/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/Futurist.csproj.AssemblyReference.cache
+/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/Futurist.GeneratedMSBuildEditorConfig.editorconfig
+/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/Futurist.AssemblyInfoInputs.cache
+/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/Futurist.AssemblyInfo.cs
+/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/Futurist.csproj.CoreCompileInputs.cache
+/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/Futurist.MvcApplicationPartsAssemblyInfo.cache
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/build-gz/0nW0+hJO.gz
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/build-gz/iIIOtnqC.gz
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/build-gz/i6jG+MeJ.gz
@@ -1450,6 +1453,7 @@
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/build-gz/EJz46TAD.gz
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/build-gz/9QOAwhlD.gz
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/build-gz/xaY7WGk+.gz
+/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/build-gz/i7d6nhP9.gz
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/build-gz/QEdk+VSL.gz
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/build-gz/vfEolCu+.gz
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/build-gz/YcWJiRRr.gz
