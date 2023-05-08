@@ -21,7 +21,7 @@ Futurist is a Blazor WebAssembly app that utilizes ASP.NET Core and C#. The app 
 4. Bootstrap with Materialize design
 5. Content saved on GitHub
 6. Deployed on Netifly
-7. Added ChaptGPT for god mode check-box
+7. Future: Added ChaptGPT for god mode check-box
 
 ## Using the application
 1. Go to the URL: https://futurist.mythoslife.com 

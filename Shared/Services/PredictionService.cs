@@ -8,7 +8,7 @@ namespace Futurist.Shared.Services;
 public class PredictionService
 {
     private readonly HttpClient _httpClient;
-    private string key = Environment.GetEnvironmentVariable("CHATGPT_API"); 
+    private string key = Environment.GetEnvironmentVariable("CHATGPT_API"); //working on it
     const string url = "https://api.openai.com/v1/chat/completions";
 
     public PredictionService(HttpClient httpClient)

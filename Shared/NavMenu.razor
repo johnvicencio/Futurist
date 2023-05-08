@@ -18,12 +18,12 @@
                     <div class="row d-flex justify-content-center">
                         <div class="col-md-12">
                             <div class="form-outline mb-4">
-                                <div class="form-check">
+                                @*<div class="form-check">
                                     <input class="form-check-input" type="checkbox" @bind="isChecked">
                                     <label class="form-check-label">
                                         Would you like a "god mode"?
                                     </label>
-                                </div>
+                                </div>*@
                                 <input type="text" class="form-control question" placeholder="Type here" @bind="question" @oninput="@(e => InputValue = e.Value.ToString())" @onkeydown="@(async (e) => { if (e.Key == "Enter") { await Answer(); } })">
                             </div>
                         </div>
@@ -49,10 +49,10 @@
     private string? question;
     private bool isChecked = false;
 
-    private void HandleCheckboxChange(ChangeEventArgs e)
-    {
-        isChecked = (bool)e.Value;
-    }
+    //private void HandleCheckboxChange(ChangeEventArgs e)
+    //{
+    //    isChecked = (bool)e.Value;
+    //}
 
     private async Task Answer()
     {
