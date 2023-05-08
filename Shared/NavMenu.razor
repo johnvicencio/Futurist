@@ -24,7 +24,10 @@
                                         Would you like a "god mode"?
                                     </label>
                                 </div>*@
-                                <input type="text" class="form-control question" placeholder="Type here" @bind="question" @oninput="@(e => InputValue = e.Value.ToString())" @onkeydown="@(async (e) => { if (e.Key == "Enter") { await Answer(); } })">
+                                <input type="text" class="form-control question" placeholder="Type here" @bind="question"/>
+                            </div>
+                            <div class="form-outline mb-4">
+                                <button type="button" class="btn btn-primary btn-block" @onclick="SubmitForm">Submit</button>
                             </div>
                         </div>
                     </div>
@@ -32,8 +35,8 @@
                         @if (!string.IsNullOrEmpty(answer) && !string.IsNullOrEmpty(question))
                         {
 
-                            <div class="col-md-12">
-                                <strong><em>@answer</em></strong>
+                            <div class="col-auto">
+                                <p style="max-width: 400px;"><strong><em>@answer</em></strong></p>
                             </div>
 
                         }
@@ -45,19 +48,20 @@
 </header>
 @code {
     private string? answer;
-    private string? InputValue { get; set; }
     private string? question;
-    private bool isChecked = false;
 
-    //private void HandleCheckboxChange(ChangeEventArgs e)
-    //{
-    //    isChecked = (bool)e.Value;
-    //}
-
-    private async Task Answer()
+    protected override async Task OnInitializedAsync()
     {
-        question = InputValue;
+        await SubmitForm();
+    }
 
-        answer = await predictionService.GetAnswerAsync(question, isChecked);
+    private async Task SubmitForm()
+    {
+
+        if (!string.IsNullOrWhiteSpace(question))
+        {
+            string questionValue = question;
+            answer = await predictionService.GetAnswerAsync(questionValue);
+        }
     }
 }
