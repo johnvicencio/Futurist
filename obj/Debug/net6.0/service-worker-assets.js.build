@@ -185,6 +185,10 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
+      "hash": "sha256-IsZJ91\/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=",
+      "url": "_framework\/Newtonsoft.Json.dll"
+    },
+    {
       "hash": "sha256-6+E55JXedimdw1c1bDtVg4K7XuWjVWVTifH8QpfzXSY=",
       "url": "_framework\/System.IO.Pipelines.dll"
     },
@@ -881,11 +885,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-A5mAGCXFS2STYQAi+cOPoOGfObXExljHf1fjuOW6w7Q=",
+      "hash": "sha256-4gW30i7wDETx11g8I61cbrAL2xcFVzuS4tqmhq+2Ah0=",
       "url": "_framework\/Futurist.dll"
     },
     {
-      "hash": "sha256-UaPU\/qh7VqKiro7HJayoJgfWEP8zSaDchXmqRJ+ii1g=",
+      "hash": "sha256-gD8qT+CvWlfV1pzhzhYu04adnh7CJ3mmnMQY4ll\/RwQ=",
       "url": "_framework\/Futurist.pdb"
     },
     {
@@ -893,13 +897,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-McdAM9OxQiAxJ5PslzNcAYidpj+ZYuRiMLJwSrcKW70=",
+      "hash": "sha256-OqF1tpPxzC10fx9jqj3Fhen8nu2HCFrfd4KiRbZdBOg=",
       "url": "_framework\/blazor.boot.json"
-    },
-    {
-      "hash": "sha256-IsZJ91\/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=",
-      "url": "_framework\/Newtonsoft.Json.dll"
     }
   ],
-  "version": "UpYixZp1"
+  "version": "hGh0RPFz"
 };
