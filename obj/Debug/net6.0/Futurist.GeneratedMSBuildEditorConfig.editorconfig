@@ -36,12 +36,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFjLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/johnvicencio/Projects/Repository/Futurist/Shared/Footer.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0Zvb3Rlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/johnvicencio/Projects/Repository/Futurist/Shared/GitHubSourceCode.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0dpdEh1YlNvdXJjZUNvZGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/johnvicencio/Projects/Repository/Futurist/Shared/Loading.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0xvYWRpbmcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/johnvicencio/Projects/Repository/Futurist/_Imports.razor]
@@ -51,7 +51,3 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/johnvicencio/Projects/Repository/Futurist/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-kfgl41ku3r
-
-[/Users/johnvicencio/Projects/Repository/Futurist/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-9chx1zdq5t

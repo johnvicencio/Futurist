@@ -2,45 +2,71 @@
 
 <PageTitle>Futurist</PageTitle>
 
-<section draggable="false" class="container pt-5" data-v-271253ee="">
-    <section class="mb-10 text-center text-md-start">
-        <div class="row d-flex justify-content-center">
-            <div class="col-lg-10">
-                <div class="row align-items-center">
-                    <div class="col-md-6 mb-4 mb-md-0">
-                        <h1 class="fw-bold">Reading your future</h1>
-                        @if (!string.IsNullOrEmpty(answer) && !string.IsNullOrEmpty(question))
-                        {
-                            <p class="text-primary"><em>@answer</em></p>
-                        }
-                        else
-                        {
-                            <p class="text-primary">I'm predicting...</p>
-                        }
+<section class="overflow-hidden pt-0" style="height: 100vh;">
+    <section class="mb-10">
+        <!-- Background image -->
+        <div class="p-5 text-center bg-image" style="background-image: url(&quot;images/drew-beamer-kUHfMW8awpE-unsplash.jpg&quot;); height: 400px; background-size: cover; background-position: 50% 50%; background-color: rgba(0, 0, 0, 0);" aria-controls="#picker-editor"></div>
+        <!-- Background image -->
+        <div class="container">
+            <div class="card mx-4 mx-md-5 text-center shadow-5-strong reading-your-future">
+                <div class="card-body px-4 py-5 px-md-5">
 
-                    </div>
-                    <div class="col-md-6 mb-4 mb-md-0">
-                        <div class="d-md-flex flex-row">
-                            <div class="form-outline flex-fill me-1 mb-3 mb-md-0">
-                                <input type="text" id="question" @bind="question" class="form-control form-control-lg"> <label class="form-label" for="question" style="margin-left: 0px;">Ask me</label>
-                                <div class="form-notch">
-                                    <div class="form-notch-leading" style="width: 9px;"></div>
-                                    <div class="form-notch-middle" style="width: 108px;"></div>
-                                    <div class="form-notch-trailing"></div>
+
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="row align-items-center">
+                                <div class="col-md-6 mb-4 mb-md-0">
+                                    <h1 class="fw-bold">Reading your future</h1>
+                                    @if (!string.IsNullOrEmpty(answer) && !string.IsNullOrEmpty(question))
+                                    {
+                                        <p class="text-primary"><em>@answer</em></p>
+                                    }
+                                    else
+                                    {
+                                        <p class="text-primary">I predict 
+                                            <span class="spinner-grow spinner-grow-sm" role="status">
+                                                <span class="sr-only">Thinking...</span>
+                                            </span>
+                                        </p>
+                                        
+                                    }
+
+                                </div>
+                                <div class="col-md-6 mb-4 mb-md-0">
+                                    <div class="d-md-flex flex-row">
+                                        <div class="form-outline flex-fill me-1 mb-3 mb-md-0">
+                                            <input type="text" id="question" @bind="question" class="form-control form-control-lg"> <label class="form-label" for="question" style="margin-left: 0px;">Ask me</label>
+                                            <div class="form-notch">
+                                                <div class="form-notch-leading" style="width: 9px;"></div>
+                                                <div class="form-notch-middle" style="width: 108px;"></div>
+                                                <div class="form-notch-trailing"></div>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn   btn-primary btn-lg ms-md-2" aria-controls="#picker-editor" @onclick="SubmitForm">Prediction</button>
+                                    </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn   btn-primary btn-lg ms-md-2" aria-controls="#picker-editor" @onclick="SubmitForm">Prediction</button>
                         </div>
                     </div>
+
+                    <div class="row" style="margin-top: 5%;">
+                        <div class="col">
+                            <a class="btn  btn-default btn-lg py-3 px-5 mb-2 mb-md-0 me-md-2" href="https://github.com/johnvicencio/Futurist" target="_blank" role="button" aria-controls="#picker-editor">Web App Code</a>
+                            <a class="btn  btn-default btn-lg py-3 px-5 mb-2 mb-md-0 me-md-2" href="https://github.com/johnvicencio/FuturistMac" target="_blank" role="button" aria-controls="#picker-editor">Mac App Code</a>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
     </section>
 </section>
 
-<section id="projects" class="container pt-5">
+<section class="container pt-5">
     <section class="mb-10 text-center text-lg-start">
-
+        <h2 class="fw-bold mb-5 text-center">Technologies Used</h2>
         <div class="row gx-lg-5">
             <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                 <div>
@@ -61,7 +87,7 @@
             <div class="col-lg-4 mb-4 mb-lg-0">
                 <div>
                     <div class="bg-image hover-overlay ripple shadow-1-strong rounded-4 mb-4" data-mdb-ripple-color="light"> <img src="images/kelly-sikkema-io0ZLYbu31s-unsplash.jpg" class="w-100" alt="" aria-controls="#picker-editor"> </div>
-                    <h5 class="fw-bold">Web and Desktop Applications</h5>
+                    <h5 class="fw-bold">User Interface</h5>
                     <div class="mb-3 text-warning small"> <i class="fas fa-sun me-2" aria-controls="#picker-editor"></i><span>User Interface and Experience</span> </div>
                     <p class="text-muted">
                         The web app utilizes Blazor WebAssembly for its UI, while the macOS desktop application relies on Xamarin, AppKit, and UIKit technologies.
@@ -72,7 +98,53 @@
     </section>
 </section>
 
+<section class="container pt-5">
+    <section class="mb-10">
+        <div class="card mb-3">
+            <div class="row g-0 d-flex align-items-center">
+                <div class="col-lg-5 col-xl-4 d-none d-lg-flex"> <img src="images/shunya-koide-1emWndlDHs0-unsplash.jpg" alt="" class="w-100 rounded-t-5 rounded-tr-lg-0 rounded-bl-lg-5" aria-controls="#picker-editor"> </div>
+                <div class="col-lg-7 col-xl-8">
+                    <div class="card-body py-5 px-md-5">
+                        <h2 class="fw-bold mb-4">Futurist Blazor WebAssembly Web App</h2>
+                        <p class="text-muted mb-4">Futurist for Mac is a macOS adaptation of an ASP.NET Core Blazor WebAssembly web application developed in C#. This app is specifically designed to provide random answers to personal questions about the future. Its functionality relies on a JSON file database containing an extensive collection of potential responses. The app employs a logical mechanism to select an appropriate answer, which is dynamically presented in the user's browser. Overall, Futurist for Mac delivers an interactive and engaging experience by utilizing ASP.NET Core Blazor technology in conjunction with the macOS platform.</p>
+                        <div class="row">
+                            <div class="col-lg-4 mb-2">
+                                <p> <span class="text-dark me-2">&#x2713;</span><span>Uses C# that produces JavaScript called Blazor</span> </p>
+                            </div>
+                            <div class="col-lg-4 mb-2">
+                                <p><span class="text-dark me-2">&#x2713;</span><span>Material Based Bootstrap Design</span></p>
+                            </div>
+                            <div class="col-lg-4 mb-2">
+                                <p><span class="text-dark me-2">&#x2713;</span><span>JavaScript, HTML, CSS</span></p>
+                            </div>
+                            <div class="col-lg-4 mb-2">
+                                <p><span class="text-dark me-2">&#x2713;</span><span>.NET Framework</span></p>
+                            </div>
+                            <div class="col-lg-4 mb-2">
+                                <p><span class="text-dark me-2">&#x2713;</span><span>JSON file as database</span></p>
+                            </div>
+                            <div class="col-lg-4 mb-2">
+                                <p><span class="text-dark me-2">&#x2713;</span><span>MVC architecture</span></p>
+                            </div>
+                            <div class="col-lg-4 mb-2">
+                                <p><span class="text-dark me-2">&#x2713;</span><span>Responsive Design</span></p>
+                            </div>
+                            <div class="col-lg-4 mb-2">
+                                <p><span class="text-dark me-2">&#x2713;</span><span>Object Oriented Programming</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+
 <GitHubSourceCode />
+
+
+
 
 
 @code {

@@ -2,13 +2,14 @@
 using System.Net.Http.Json;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json;
+using System;
 
 namespace Futurist.Shared.Services;
 
 public class PredictionService
 {
     private readonly HttpClient _httpClient;
-    private string result = "";
+    private string answer = String.Empty;
     private int index = 0;
     //private string key = Environment.GetEnvironmentVariable("CHATGPT_API"); //working on it
     //const string url = "https://api.openai.com/v1/chat/completions";
@@ -30,58 +31,55 @@ public class PredictionService
                 index = random.Next(predictions.Count);
             }
 
-
-            bool triggers = Regex.IsMatch(question.Trim(), @"^\b(who|what|when|where|why|how|which|whom|whose|will|is|can|could|should|ought)\b", RegexOptions.IgnoreCase) && (question.Trim().EndsWith("?")) ? true : false;
-            if (question.ToLower().Contains("fake"))
-            {
-                result = "That is harsh and this reflects on you!";
-            }
-            else if (question.ToLower().Contains("john"))
-            {
-                result = "Are you talking smack?";
-            }
-            else if (question.ToLower().Contains("who are you"))
-            {
-                result = "I'm who I am.";
-            }
-            else if (question.ToLower().Contains("tell me about yourself"))
-            {
-                result = "I am the Futurist!";
-            }
-            else if (triggers)
+            if (isQuestion(question))
             {
                 if (predictions != null)
                 {
-                    result = predictions[index].Answer;
+                    answer = predictions[index].Answer;
                 }
-
             }
             else
             {
-                List<string> answers = new List<string> {
-                    "Huh?",
-                    "I don't understand...",
-                    "Is this a real question?",
-                    "Ask me another question.",
-                    "Let's talk about something else."
-                };
-                index = random.Next(answers.Count);
-                string answer = answers[index];
-                if (answer.Trim().EndsWith("?"))
+                if (question.ToLower().Contains("fake"))
                 {
-                    result = answer;
+                    answer = "That is harsh and this reflects on you!";
+                }
+                else if (question.ToLower().Contains("john"))
+                {
+                    answer = "Are you talking smack?";
+                }
+                else if (question.ToLower().Contains("who are you"))
+                {
+                    answer = "I'm who I am.";
+                }
+                else if (question.ToLower().Contains("tell me about yourself"))
+                {
+                    answer = "I am the Futurist!";
+                }
+                else if (!answer.Trim().EndsWith("?"))
+                {
+                    answer = "You did type something. Did you ask me a question?";
                 }
                 else
                 {
-                    result = "Are you missing a question mark?";
-                }
+                    List<string> huhs = new List<string> {
+                        "Huh?",
+                        "Ask about your future.",
+                        "What do you want about the future?",
+                        "I don't understand...",
+                        "Is this a real question?",
+                        "Ask me another question.",
+                        "Let's talk about something else."
+                    };
 
+                    index = random.Next(huhs.Count);
+                    var huh = huhs[index];
+                    answer = huh;
+                }
             }
 
-
-           
         }
-        return result;
+        return answer;
     }
 
     //public async Task<string> GetChatGptResponseAsync(string prompt)
@@ -133,6 +131,21 @@ public class PredictionService
     //        return messageObject.content;
     //    }
     //}
+
+
+
+    private bool isQuestion(string input)
+    {
+        bool result;
+        string firstPersonPattern = @"\b(I|me|my|mine)\b";
+        bool isFirstPerson = Regex.IsMatch(input, firstPersonPattern, RegexOptions.IgnoreCase);
+        string questionPattern = @"^\b(who|what|when|where|why|how|which|whom|whose|will|is|can|could|should|ought)\b";
+        bool isQuestion = Regex.IsMatch(input, questionPattern, RegexOptions.IgnoreCase);
+
+        result = isFirstPerson && isQuestion ? true: false ;
+
+        return result;
+    }
 
 }
 

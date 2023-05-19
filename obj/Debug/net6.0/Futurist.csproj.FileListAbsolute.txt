@@ -1640,7 +1640,6 @@
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/staticwebassets.build.json
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/staticwebassets.development.json
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
-/Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/scopedcss/bundle/Futurist.styles.css
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/scopedcss/projectbundle/Futurist.bundle.scp.css
 /Users/johnvicencio/Projects/Repository/Futurist/obj/Debug/net6.0/service-worker/service-worker.js
