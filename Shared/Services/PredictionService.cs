@@ -11,8 +11,6 @@ public class PredictionService
     private readonly HttpClient _httpClient;
     private string answer = String.Empty;
     private int index = 0;
-    //private string key = Environment.GetEnvironmentVariable("CHATGPT_API"); //working on it
-    //const string url = "https://api.openai.com/v1/chat/completions";
 
     public PredictionService(HttpClient httpClient)
     {
@@ -81,58 +79,6 @@ public class PredictionService
         }
         return answer;
     }
-
-    //public async Task<string> GetChatGptResponseAsync(string prompt)
-    //{
-    //    // Initialise the chat by describing the assistant,
-    //    // and providing the assistants first question to the user
-    //    var messages = new List<dynamic>
-    //    {
-    //        new {role = "system",
-    //            content = "You are a universal entity, an astrologer, or someone who has prophesies who read the future of a person. I'm a person who will type a question. After I typed my question please generate a generic answer."},
-    //        new {role = "user",
-    //            content = "How can I help you?"}
-    //    };
-    //    var userMessage = prompt;
-    //    messages.Add(new { role = "user", content = userMessage });
-
-    //    // Create the request for the API sending the
-    //    // latest collection of chat messages
-    //    var request = new
-    //    {
-    //        messages,
-    //        model = "gpt-3.5-turbo",
-    //        max_tokens = 300,
-    //    };
-
-
-    //    // Send the request and capture the response
-    //    var httpClient = new HttpClient();
-    //    httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {key}");
-    //    var requestJson = JsonConvert.SerializeObject(request);
-    //    var requestContent = new StringContent(requestJson, System.Text.Encoding.UTF8, "application/json");
-    //    var httpResponseMessage = await httpClient.PostAsync(url, requestContent);
-    //    var jsonString = await httpResponseMessage.Content.ReadAsStringAsync();
-    //    var responseObject = JsonConvert.DeserializeAnonymousType(jsonString, new
-    //    {
-    //        choices = new[] { new { message = new { role = string.Empty, content = string.Empty } } },
-    //        error = new { message = string.Empty }
-    //    });
-
-
-    //    if (!string.IsNullOrEmpty(responseObject?.error?.message))  // Check for errors
-    //    {
-    //        return "Error";
-    //    }
-    //    else  // Add the message object to the message collection
-    //    {
-    //        var messageObject = responseObject?.choices[0].message;
-    //        messages.Add(messageObject);
-    //        return messageObject.content;
-    //    }
-    //}
-
-
 
     private bool isQuestion(string input)
     {

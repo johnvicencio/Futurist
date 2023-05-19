@@ -5,7 +5,7 @@
       "url": ".DS_Store"
     },
     {
-      "hash": "sha256-os7pNhZBlwG4nXKXj4Qbd1+THmAbN7F+r1SVgSIOQ5w=",
+      "hash": "sha256-wv+sxYk5d+vN\/jJuOtyrA\/GWdtY1q1XHcpnnm4EfmBg=",
       "url": "css\/app.css"
     },
     {
@@ -993,11 +993,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-RuleN0Yd3jhy3xPBlcCgQ5Dp8RcJfkG1s3mAU5RpglU=",
+      "hash": "sha256-MMMOflzOZRRYghhC\/6thZhUg2KCAITIRUUoODpGyRLQ=",
       "url": "_framework\/Futurist.dll"
     },
     {
-      "hash": "sha256-NbkJoMuRvdfJVe8Vn2Wm53\/dduZELcwSuzKgNyybVrU=",
+      "hash": "sha256-lfBbqXF1Wm7Vv2kiE9abt+1xLF4m6D2WxZiKX1KIBW4=",
       "url": "_framework\/Futurist.pdb"
     },
     {
@@ -1005,9 +1005,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-ndFW8ycBN+a0JXsFedyDeqnDLOa2iTM\/N3Umdt1Ko44=",
+      "hash": "sha256-d\/JE5nGJ\/IzxLeJSMc6h7OAuf5ahdxsHdAzoovbpvaI=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "TqPERPAu"
+  "version": "6Ba1i0Zj"
 };
