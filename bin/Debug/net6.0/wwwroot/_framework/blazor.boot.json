@@ -197,13 +197,13 @@
       "mscorlib.dll": "sha256-C3gpWQMELcHYfrHU\/1agQUvWTtSNs9Ul2suMxcKFnIc=",
       "netstandard.dll": "sha256-CgGkoZQx73t3qchcsu85kgBcgrjNEOiudArOwKNb18k=",
       "System.Private.CoreLib.dll": "sha256-6nUSjiT7okMlkN897OnDypwppYuK7JxTahOClXkAuwE=",
-      "Futurist.dll": "sha256-4gW30i7wDETx11g8I61cbrAL2xcFVzuS4tqmhq+2Ah0="
+      "Futurist.dll": "sha256-gzU3D5e80FxG0OGLVg61kELMhf+fxYdYMj5uxuFkG40="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Futurist.pdb": "sha256-gD8qT+CvWlfV1pzhzhYu04adnh7CJ3mmnMQY4ll\/RwQ="
+      "Futurist.pdb": "sha256-LXQFOepV6FaaTKm6cYqUpZM1LMbZNYwaKWk+AujWgn4="
     },
     "runtime": {
       "dotnet.6.0.16.i45oij4e1f.js": "sha256-GT2gK+GjOisRXJY+9yh6H8s6K\/KDIsaFMFIgWvAnttY=",

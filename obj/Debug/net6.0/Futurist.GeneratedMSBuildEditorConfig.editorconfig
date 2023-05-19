@@ -20,12 +20,28 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/johnvicencio/Projects/Repository/Futurist/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/johnvicencio/Projects/Repository/Futurist/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/johnvicencio/Projects/Repository/Futurist/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/johnvicencio/Projects/Repository/Futurist/Pages/Mac.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFjLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/johnvicencio/Projects/Repository/Futurist/Shared/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0Zvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/johnvicencio/Projects/Repository/Futurist/Shared/GitHubSourceCode.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0dpdEh1YlNvdXJjZUNvZGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/johnvicencio/Projects/Repository/Futurist/_Imports.razor]

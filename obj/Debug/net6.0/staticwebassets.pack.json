@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/service-worker.js"
     },
     {
+      "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },
@@ -31,6 +35,10 @@
     {
       "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/css/mdb.light.1.min.css.map",
+      "PackagePath": "staticwebassets/css/mdb.light.1.min.css.map"
     },
     {
       "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/css/mdb.min.css",
@@ -93,12 +101,40 @@
       "PackagePath": "staticwebassets/icon-512.png"
     },
     {
+      "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/images/FuturistMacbg.gif",
+      "PackagePath": "staticwebassets/images/FuturistMacbg.gif"
+    },
+    {
+      "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/images/altumcode-PNbDkQ2DDgM-unsplash.jpg",
+      "PackagePath": "staticwebassets/images/altumcode-PNbDkQ2DDgM-unsplash.jpg"
+    },
+    {
       "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/images/drew-beamer-xU5Mqq0Chck-unsplash.jpg",
       "PackagePath": "staticwebassets/images/drew-beamer-xU5Mqq0Chck-unsplash.jpg"
     },
     {
+      "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/images/emile-perron-xrVDYZRGdw4-unsplash.jpg",
+      "PackagePath": "staticwebassets/images/emile-perron-xrVDYZRGdw4-unsplash.jpg"
+    },
+    {
+      "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/images/johnsaltonsea.jpeg",
+      "PackagePath": "staticwebassets/images/johnsaltonsea.jpeg"
+    },
+    {
       "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/images/juliana-mayo-qS7VWP8ADrw-unsplash.jpg",
       "PackagePath": "staticwebassets/images/juliana-mayo-qS7VWP8ADrw-unsplash.jpg"
+    },
+    {
+      "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/images/karsten-winegeart-BmITQhaDSw8-unsplash.jpg",
+      "PackagePath": "staticwebassets/images/karsten-winegeart-BmITQhaDSw8-unsplash.jpg"
+    },
+    {
+      "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/images/kelly-sikkema-io0ZLYbu31s-unsplash.jpg",
+      "PackagePath": "staticwebassets/images/kelly-sikkema-io0ZLYbu31s-unsplash.jpg"
+    },
+    {
+      "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/images/zan-X_JsI_9Hl7o-unsplash.jpg",
+      "PackagePath": "staticwebassets/images/zan-X_JsI_9Hl7o-unsplash.jpg"
     },
     {
       "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/index.html",
@@ -107,6 +143,10 @@
     {
       "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/js/mdb.min.js",
       "PackagePath": "staticwebassets/js/mdb.min.js"
+    },
+    {
+      "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/js/mdb.min.js.map",
+      "PackagePath": "staticwebassets/js/mdb.min.js.map"
     },
     {
       "Id": "/Users/johnvicencio/Projects/Repository/Futurist/wwwroot/manifest.json",

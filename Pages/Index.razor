@@ -2,32 +2,102 @@
 
 <PageTitle>Futurist</PageTitle>
 
-<section id="start">
-    <div class="row">
-        <div class="col-md-6 gx-5 mb-4">
-            <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
-                <img src="/images/juliana-mayo-qS7VWP8ADrw-unsplash.jpg" class="img-fluid" />
-                <a href="/">
-                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                </a>
-            </div>
-        </div>
+<section draggable="false" class="container pt-5" data-v-271253ee="">
+    <section class="mb-10 text-center text-md-start">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-10">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <h1 class="fw-bold">Reading your future</h1>
+                        @if (!string.IsNullOrEmpty(answer) && !string.IsNullOrEmpty(question))
+                        {
+                            <p class="text-primary"><em>@answer</em></p>
+                        }
+                        else
+                        {
+                            <p class="text-primary">I'm predicting...</p>
+                        }
 
-        <div class="col-md-6 gx-5 mb-4">
-            <h4><strong>Technologies used</strong></h4>
-            <p>
-                The code is a basic ASP.NET Core Blazor Webassembly application that prompts users to enter a
-                personal question about their future. The application then accesses a JSON file database
-                that contains various possible answers, and a logic selects an answer to the user's question.
-                The selected answer is then displayed on the user's browser. Overall, this is a simple yet
-                effective application that uses ASP.NET Core Blazor to provide an interactive experience for users.
-            </p>
-            <h5>macOS App version with C# Demo</h5>
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_p7y8SkhZkw?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <div class="d-md-flex flex-row">
+                            <div class="form-outline flex-fill me-1 mb-3 mb-md-0">
+                                <input type="text" id="question" @bind="question" class="form-control form-control-lg"> <label class="form-label" for="question" style="margin-left: 0px;">Ask me</label>
+                                <div class="form-notch">
+                                    <div class="form-notch-leading" style="width: 9px;"></div>
+                                    <div class="form-notch-middle" style="width: 108px;"></div>
+                                    <div class="form-notch-trailing"></div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn   btn-primary btn-lg ms-md-2" aria-controls="#picker-editor" @onclick="SubmitForm">Prediction</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 </section>
 
+<section id="projects" class="container pt-5">
+    <section class="mb-10 text-center text-lg-start">
 
+        <div class="row gx-lg-5">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <div>
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded-4 mb-4" data-mdb-ripple-color="light"> <img src="images/emile-perron-xrVDYZRGdw4-unsplash.jpg" class="w-100" alt="" aria-controls="#picker-editor"> </div>
+                    <h5 class="fw-bold">C#</h5>
+                    <div class="mb-3 text-danger small"> <i class="fas fa-fire me-2" aria-controls="#picker-editor"></i><span>Main Programming Lanaguage</span> </div>
+                    <p class="text-muted">C# is a popular language by Microsoft for building a variety of applications. It offers simplicity, strong type checking, and scalability. With automatic memory management and .NET integration, it enables cross-platform development.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div>
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded-4 mb-4" data-mdb-ripple-color="light"> <img src="images/zan-X_JsI_9Hl7o-unsplash.jpg" class="w-100" alt="" aria-controls="#picker-editor"> </div>
+                    <h5 class="fw-bold">.NET</h5>
+                    <div class="mb-3 text-primary small"> <i class="fas fa-flask me-2" aria-controls="#picker-editor"></i><span>Software Development Framework</span> </div>
+                    <p class="text-muted">The .NET Framework is a software development framework from Microsoft that simplifies application development. It supports web, desktop, and mobile app creation, and provides features like memory management, security, and interoperability.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div>
+                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded-4 mb-4" data-mdb-ripple-color="light"> <img src="images/kelly-sikkema-io0ZLYbu31s-unsplash.jpg" class="w-100" alt="" aria-controls="#picker-editor"> </div>
+                    <h5 class="fw-bold">Web and Desktop Applications</h5>
+                    <div class="mb-3 text-warning small"> <i class="fas fa-sun me-2" aria-controls="#picker-editor"></i><span>User Interface and Experience</span> </div>
+                    <p class="text-muted">
+                        The web app utilizes Blazor WebAssembly for its UI, while the macOS desktop application relies on Xamarin, AppKit, and UIKit technologies.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<GitHubSourceCode />
+
+
+@code {
+    private string? answer;
+    private string? question;
+    private string currentPage = String.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var uri = new Uri(navigationManager.Uri);
+        currentPage = uri.Segments[^1]; // Extract the last segment of the URL
+        await SubmitForm();
+    }
+
+    private async Task SubmitForm()
+    {
+
+        if (!string.IsNullOrWhiteSpace(question))
+        {
+            string questionValue = question;
+            answer = await predictionService.GetAnswerAsync(questionValue);
+        }
+    }
+    private async Task ReloadPage()
+    {
+        await jSRuntime.InvokeVoidAsync("location.reload");
+    }
+}

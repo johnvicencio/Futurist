@@ -1,19 +1,11 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
-#intro {
-    background-image: url("../images/drew-beamer-xU5Mqq0Chck-unsplash.jpg");
-    height: 100vh;
-}
 
 /* Height for devices larger than 576px */
-@media (min-width: 992px) {
-    #intro {
-        margin-top: -58.59px;
-    }
-}
 
-.navbar .nav-link {
+
+/*.navbar .nav-link {
     color: #fff !important;
-}
+}*/
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -23,14 +15,14 @@ h1:focus {
     outline: none;
 }
 
-a, .btn-link {
+/*a, .btn-link {
     color: #0071c1;
 }
 
 .btn-primary {
     color: #fff;
     background-color: #1b6ec2;
-    border-color: #1861ac;
+    border-color: #1861ac;*/
 }
 
 .valid.modified:not([type=checkbox]) {
@@ -79,6 +71,17 @@ a, .btn-link {
     display: none !important;
 }
 
-input.question {
+/*input.question {
     background: white !important;
 }
+*/
+
+.cascading-right {
+    margin-right: -50px;
+}
+
+@media (max-width: 991.98px) {
+    .cascading-right {
+        margin-right: 0;
+    }
+} 

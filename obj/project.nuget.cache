@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1z53p/ZtqE8pyZg/uG/XXQNaBCVG4ISDUocdbl8GJA69cFBkoV/vt4w0rtc4IcyijwfWRHb1GoBqxkMwePTTQQ==",
+  "dgSpecHash": "UC7cX4wAtvfKKZRXxMJNmy8zawujOdmymce1NrExXXwNcwqxD1+2RPVhG+JCGy/sxFp3NPmYL14Hk5LwTZ0dKQ==",
   "success": true,
   "projectFilePath": "/Users/johnvicencio/Projects/Repository/Futurist/Futurist.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,8 @@
     "/Users/johnvicencio/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/johnvicencio/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/Users/johnvicencio/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",
+    "/Users/johnvicencio/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "/Users/johnvicencio/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
     "/Users/johnvicencio/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.16/microsoft.netcore.app.runtime.mono.browser-wasm.6.0.16.nupkg.sha512"
   ],
   "logs": []

@@ -1,7 +1,11 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-sSo5W0gEoXFIxbQY+o6jYmgzcrauXfhwE+AZzSFRhE0=",
+      "hash": "sha256-07uTRajiuWKINqTW\/rvZcQdAnrrB3sMGsizIuEFWeXw=",
+      "url": ".DS_Store"
+    },
+    {
+      "hash": "sha256-GknELbf32leeFIsI1dj7Y53nQtjPClv43OyTcNpLEn8=",
       "url": "css\/app.css"
     },
     {
@@ -13,7 +17,11 @@
       "url": "css\/bootstrap\/bootstrap.min.css.map"
     },
     {
-      "hash": "sha256-6vrii65TwNefb1GDfgvJ+SBASLldbzuuWrQiGDxN3I0=",
+      "hash": "sha256-mvvM5O79h06qwv2NlL7Bg4SipWs8hzaBtFknCw2rHKg=",
+      "url": "css\/mdb.light.1.min.css.map"
+    },
+    {
+      "hash": "sha256-h7vC9Sr9SCXFzb3lP\/EhlqXH44a6kvs\/fL2i2Zlrj4c=",
       "url": "css\/mdb.min.css"
     },
     {
@@ -73,20 +81,52 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-AE2WJY3KjUWNd5Z02\/iY5kdwsnsFh9hYMyZaGxnVo24=",
+      "url": "images\/altumcode-PNbDkQ2DDgM-unsplash.jpg"
+    },
+    {
       "hash": "sha256-ZXqlCWM1uCbRt2\/DCNl3lLqdYYNyEVLDJ6xkoJPZFvg=",
       "url": "images\/drew-beamer-xU5Mqq0Chck-unsplash.jpg"
+    },
+    {
+      "hash": "sha256-I8ZwhyRw8LnQvuxjnvK0PO2tVU0K3r9ZThjFlw4DKpc=",
+      "url": "images\/emile-perron-xrVDYZRGdw4-unsplash.jpg"
+    },
+    {
+      "hash": "sha256-d4R3bT4RqVykFkKE\/MVpvvVtqU3Q2YR1nMlr5Fe\/YpE=",
+      "url": "images\/FuturistMacbg.gif"
+    },
+    {
+      "hash": "sha256-XjVbOXxG++MWnGUim8lRwSDFUuGjq8pFWZK+wbdqxDA=",
+      "url": "images\/johnsaltonsea.jpeg"
     },
     {
       "hash": "sha256-iN7UrxmAK\/OXw2jN6AA9MyG\/SoOAugLUQ\/lR0WCF\/Wg=",
       "url": "images\/juliana-mayo-qS7VWP8ADrw-unsplash.jpg"
     },
     {
-      "hash": "sha256-k\/rKHOfvNfqpONYqUIh8JTmTxHxrKG1UIIMwSdFU\/ME=",
+      "hash": "sha256-MGceGWX1wUf8fnHUT0LLeLmIe9vgVTVrYdzqsBtquUM=",
+      "url": "images\/karsten-winegeart-BmITQhaDSw8-unsplash.jpg"
+    },
+    {
+      "hash": "sha256-ZjpE7463P3shZGEgl59FF5hsyrzJX9dgLlnDe0hnxlo=",
+      "url": "images\/kelly-sikkema-io0ZLYbu31s-unsplash.jpg"
+    },
+    {
+      "hash": "sha256-mD2EY5Ei3Y6HTlNhDv\/P9V+fU16TWoVqN+3LKcrI\/Lo=",
+      "url": "images\/zan-X_JsI_9Hl7o-unsplash.jpg"
+    },
+    {
+      "hash": "sha256-tW3X7gJwO61nXWLLM4DE6hmSGxTCmYJ4P6RIxUuGR\/w=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-CRWGUQGeXKjL9VbIAkPOgk9sfBKgdLuCp9KcogxmNo4=",
+      "hash": "sha256-IgB6y5PVsvkTYdU6JXaSsC1amcxE5Oe\/gI4d2jbHtmQ=",
       "url": "js\/mdb.min.js"
+    },
+    {
+      "hash": "sha256-hhp\/bH2884WjnUQTn8\/GyP2SMlav3Pq6F0fXlxl57O8=",
+      "url": "js\/mdb.min.js.map"
     },
     {
       "hash": "sha256-zqOmuxeBQE8YNS1CJ+YQD5ddfHjXx8YP2WNGk4V7ats=",
@@ -885,11 +925,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-4gW30i7wDETx11g8I61cbrAL2xcFVzuS4tqmhq+2Ah0=",
+      "hash": "sha256-ZUhYwJ3\/xQp6bu5\/TOojODdYic227SHI3F5TG7S2SYA=",
       "url": "_framework\/Futurist.dll"
     },
     {
-      "hash": "sha256-gD8qT+CvWlfV1pzhzhYu04adnh7CJ3mmnMQY4ll\/RwQ=",
+      "hash": "sha256-vt+GxF18QZaDoqBdVS+mWo\/89YNC6ANjpoVJb7emFaE=",
       "url": "_framework\/Futurist.pdb"
     },
     {
@@ -897,9 +937,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-OqF1tpPxzC10fx9jqj3Fhen8nu2HCFrfd4KiRbZdBOg=",
+      "hash": "sha256-bzRPlabXoTAVD3PVuCbfQ42Eu1aInesKH6sYRcnsLQc=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "hGh0RPFz"
+  "version": "\/8kHfGeD"
 };
